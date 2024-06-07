@@ -20,7 +20,10 @@ h1 {
 .button-delete {
   font-family: "Montserrat", sans-serif;
   background: none;
+  font-size: 10px;
   border: 0;
+  font-weight: bolder;
+  color: red;
 }
 .App {
   display: flex;
@@ -48,6 +51,7 @@ textarea {
   height: 200px;
   border-radius: 20px;
   font-family: "Montserrat", sans-serif;
+  padding: 10px;
 }
 .selected {
   background-color: #fad106;
@@ -60,7 +64,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
-.title {
+.field {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
